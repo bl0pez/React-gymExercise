@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFAFB;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+.bodyPart-card {
+    transform: scale(1, 1);
+    transition: 0.3s all ease-in-out;
+  }
+
+  .exercise-card:hover,
+  .bodyPart-card:hover {
+    transform: scale(1.1, 1.1);
+    border-top: 4px solid #FF2625;
+  }
+  
+.react-horizontal-scrolling-menu--wrapper{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+.react-horizontal-scrolling-menu--inner-wrapper{
+    margin: 0 auto;
+    
+}
+
+
+.react-horizontal-scrolling-menu--scroll-container {
+    overflow-x: hidden;
+    width: 90vw;
+}
+
+.react-horizontal-scrolling-menu--arrow-right,
+.react-horizontal-scrolling-menu--arrow-left{
+    align-items: center;
+    cursor: pointer;
+}
+
+.exercise-card img {
+    height: 326px;
+  }
